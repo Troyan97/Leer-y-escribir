@@ -17,10 +17,10 @@ Algoritmo ejercicio_4
 	leer peso;
 	Escribir  "Valor de la comida";
 	Leer precio;
-	Escribir  "Que mascotas tiene?"
+	Escribir  "Que mascotas tiene?";
 	leer mascotas;
 	Escribir "Gasto mensual $ " precio;
-	GASTO_ANUAL = precio * un_anio
+	GASTO_ANUAL = precio * un_anio;
 	Escribir "Con un Bolsa de " marca " de " peso "KG para " mascotas " se gasta en un año: $ "  GASTO_ANUAL;
 	
 FinAlgoritmo
