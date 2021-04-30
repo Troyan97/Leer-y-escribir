@@ -1,14 +1,15 @@
 Algoritmo ejercicio_4
 	
+	Definir GASTO_ANUAL Como Real;
+	GASTO_ANUAL=0;
 	Definir peso, precio como real;
-	Definir  mascotas como texto;
-	Definir marca como texto;
-	definir un_anio como entero;
-	Definir gasto_anual Como Real;
-	marca= "def usuario"; //marca de la comida
 	peso= 0; //peso por bolsa
 	precio= 0; //valor comida
+	Definir  mascotas como texto;
 	mascotas="def por el usuario";
+	Definir marca como texto;
+	marca= "def usuario"; //marca de la comida
+	definir un_anio como entero;
 	un_anio= 12;
 	escribir "indicar marca de la comida";
 	leer marca;
@@ -19,8 +20,8 @@ Algoritmo ejercicio_4
 	Escribir  "Que mascotas tiene?"
 	leer mascotas;
 	Escribir "Gasto mensual $ " precio;
-	gasto_anual = precio * un_anio
-	Escribir "Con un Bolsa de " marca " de " peso "KG para " mascotas " se gasta en un año: $ "  gasto_anual
+	GASTO_ANUAL = precio * un_anio
+	Escribir "Con un Bolsa de " marca " de " peso "KG para " mascotas " se gasta en un aÃ±o: $ "  GASTO_ANUAL;
 	
 FinAlgoritmo
 	
