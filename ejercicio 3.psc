@@ -12,7 +12,7 @@ Algoritmo ejercicio_3
 	
 	leer ausentes;
 	
-	resultado = ESTUDIANTES-ausentes; //total de estudiantes hoy
+	resultado = ESTUDIANTES-ausentes; //total de estudiantes ausentes hoy
 	Escribir  "Total estudiantes hoy: " resultado;
 	Escribir "Hoy se durmieron " resultado " estudiantes...";
 	
