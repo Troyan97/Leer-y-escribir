@@ -1,6 +1,6 @@
 Algoritmo ejercicio_3
 	
-	definir ESTUDIANTES, ausentes, total como entero;	
+	definir ESTUDIANTES, ausentes, resultado como entero;	
 	ESTUDIANTES = 15;//cantidad  maxima d ESTUDIANTES
 	
 	ausentes = 0; //faltaron
@@ -14,5 +14,6 @@ Algoritmo ejercicio_3
 	
 	resultado = ESTUDIANTES-ausentes; //total de estudiantes hoy
 	Escribir  "Total estudiantes hoy: " resultado;
+	Escribir "Hoy se durmieron " resultado " estudiantes...";
 	
 FinAlgoritmo
